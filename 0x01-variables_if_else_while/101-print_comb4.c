@@ -41,13 +41,9 @@ if (j != 55 || i != 56 || k != 57)
 putchar(44);
 
 putchar(32);
-
 }
-
 }
-
 }
-
 }
 
 putchar('\n');
