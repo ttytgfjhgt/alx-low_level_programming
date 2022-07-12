@@ -1,7 +1,6 @@
 #include "main.h"
 
 
-
 /**
  * _strlen - get len
  * @str: char pointer
@@ -100,8 +99,6 @@ int _atoi(char *s)
 
 {
 
-
-
 	int _start_id = (_num_id(s));
 
 	int sign;
@@ -121,9 +118,7 @@ int _atoi(char *s)
 		return (0);
 
 
-
 	sign = find_sign(s);
-
 
 
 	while ((s[_start_id] >= '0' && s[_start_id] <= '9')
@@ -139,7 +134,6 @@ int _atoi(char *s)
 	}
 
 
-
 	i = 1;
 
 	while (i < _digits) /* find powers of ten to multiply places */
@@ -153,7 +147,6 @@ int _atoi(char *s)
 	}
 
 
-
 	for (i = digit; i < (digit + _digits); i++) /* calculate num */
 
 	{
@@ -163,7 +156,6 @@ int _atoi(char *s)
 		t /= 10;
 
 	}
-
 
 
 	return (num * sign);
