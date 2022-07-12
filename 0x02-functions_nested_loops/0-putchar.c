@@ -1,24 +1,29 @@
-#include"main.h"
+#include <string.h>
+
+#include "main.h"
+
 
 /**
- *main-print Putchar
+ * main - Entry point
  *
- * Description-print_putchar followed by a new line
- *
- * Return: 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
-{
-_putchar('_');
-_putchar('p');
-_putchar('u');
-_putchar('t');
-_putchar('c');
-_putchar('h');
-_putchar('a');
-_putchar('r');
-_putchar('\n');
 
-return (0);
+{
+
+	const char str[] = "_putchar\n";
+
+	int len = strlen(str);
+
+	int i;
+
+
+	for (i = 0; i < len; i++)
+
+		_putchar(str[i]);
+
+	return (0);
+
 }
