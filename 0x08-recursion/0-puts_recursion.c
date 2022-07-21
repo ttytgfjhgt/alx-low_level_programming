@@ -1,6 +1,5 @@
 #include "main.h"
 
-
 /**
  * _puts_recursion - print a string using recursion
  * @s: String to print
@@ -9,7 +8,6 @@
  */
 
 void _puts_recursion(char *s)
-
 {
 	if (*s == '\0')
 	{
