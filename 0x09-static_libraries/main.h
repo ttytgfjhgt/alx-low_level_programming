@@ -1,7 +1,5 @@
-#ifndef _MAIN_H
-#define _MAIN_H
-
-#include <string.h>
+#ifndef MAIN_H
+#define MAIN_H
 
 int _putchar(char c);
 int _islower(int c);
