@@ -18,8 +18,7 @@ printf("Error\n");
 exit(98);
 }
 
-
-f (
+if (
 (strcmp(argv[2], "+") &&
 strcmp(argv[2], "-") &&
 strcmp(argv[2], "*") &&
